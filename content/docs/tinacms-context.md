@@ -1,8 +1,8 @@
 ---
 title: Next.js APIs
-id: '/docs/tinacms-context'
+id: /docs/tinacms-context
+last_edited: '2021-09-20T04:04:04.095Z'
 ---
-
 There are essentially two touch points you'll need set up in order for Tina to work with your Next.js application or website.
 
 1. Load data from the TinaCMS GraphQL API from `getStaticProps`
@@ -13,7 +13,7 @@ There are essentially two touch points you'll need set up in order for Tina to w
 TinaCMS is easiest to work with when you provide a predictable shape to the props you return from `getStaticProps`. `getStaticPropsForTina` enforces this shape for you:
 
 ```tsx
-// pages/home.js
+// pages/homies.js
 import { getStaticPropsForTina } from 'tinacms'
 
 const getStaticProps = async () => {
